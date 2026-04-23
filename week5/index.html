@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border: 1px dotted sandybrown;
+            padding: 5px;
+            text-align: center;
+
+        }
+
+        tr:nth-child(even){
+            background-color: blueviolet;
+        }
+         tr:nth-child(odd){
+            background-color: burlywood;
+        }
+
+
+       
+    </style>
+</head>
+<body>
+    <h1>Week 5 Tables and Forms!</h1>
+    <h2>Table Example</h2>
+    <table>
+        <thead>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Program</td>
+
+           
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Angel</td>
+                <td>Caba</td>
+                <td>Loser</td>
+            </tr>
+            <tr>
+                <td>Anothony</td>
+                <td>Palazo</td>
+                <td>Badass Student</td>
+            </tr>
+            <tr>
+                <td>Joel</td>
+                <td>hanson</td>
+                <td>Badass Teacher</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table>
+        <thead>
+            <tr>
+                <td>Favorite Food</td>
+                <td>Rating out of 10</td>
+           
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cheese Pizza</td>
+                <td>9/10</td>
+            </tr>
+            <tr>
+                <td>Grilled Chicken</td>
+                <td>8.5/10</td>
+            </tr>
+            <tr>
+                <td>Bristket</td>
+                <td>9.5/10</td>
+            </tr>
+        </tbody>
+    </table>
+   
+    <br>
+    <h2>Basic Form Example</h2>
+    <form action="#" method="get">
+        <input type="text" name="username" placeholder="Enter Username...">
+        <br>
+        <input type="text" name="password" placeholder="Enter Password...">
+        <br>
+        <input type="button" value="Click Me!">
+    </form>
+    <br>
+    <br>
+    <h2>Example of a form witha table</h2>
+
+    <form action="#" method="get">
+        <table>
+            <thead>
+                <tr>
+                    <td>Label</td>
+                    <td>Input</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Text Input</td>
+                    <td><input type="text" name="text-input" required></td>
+                </tr>
+
+                <tr>
+                    <td>Checkbox</td>
+                    <td><input type="checkbox" name="check"></td>
+                </tr>
+
+                <tr>
+                    <td>Color</td>
+                    <td><input type="color" name="color"></td>
+                </tr>
+
+                <tr>
+                    <td>Date</td>
+                    <td><input type="Date" name="Date"></td>
+                </tr>
+
+                <tr>
+                    <td>File</td>
+                    <td><input type="File" name="File"></td>
+                </tr>
+
+                <tr>
+                    <td>Time</td>
+                    <td><input type="Time" name="Time"></td>
+                </tr>
+
+                <tr>
+                    <td>Radio Button</td>
+                    <td>
+                        <label for="yes"> Yes:</label>
+                        <input type="radio" name="yes-or-no" id="yes" value="yes">
+                        <br>
+                        <label for="no"> No:</label>
+                        <input type="radio" name="yes-or-no" id="no" value="no">
+                        <br>
+                        <label for="maybe"> Maybe:</label>
+                        <input type="radio" name="yes-or-no" id="maybe" value="maybe">
+                       
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Text Area</td>
+                    <td><textarea name="message" cols="30" rows="10" placeholder="Enter some text"></textarea></td>
+                </tr>
+
+
+
+               
+
+               
+            </tbody>
+        </table>
+    </form>
+
+</body>
+</html>

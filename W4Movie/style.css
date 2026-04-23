@@ -1,0 +1,102 @@
+@font-face {
+    font-family: myFont ;
+    src: url(ScienceGothic-VariableFont_CTRS\,slnt\,wdth\,wght.ttf);
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: myfont;
+
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(99, 89, 75);
+    padding: 20px;
+}
+
+#header {
+    text-align: center;
+    color: yellow
+    transition: 0.5s;
+}
+
+#hover:hover {
+    text-shadow: 10px yellow;
+}
+
+#nav {
+    text-align: center;
+    margin: 10px;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.3s;
+
+}
+
+#nav a:hover {
+    color:whitesmoke;
+    text-shadow: 8px ye;
+}
+
+h2 {
+    color: yellow;
+    text-align: center;
+}
+
+h3 {
+    color: lightgray;
+}
+
+
+.character {
+    background-color: gray;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+.character:hover {
+    background-color: black;
+    color: yellow;
+}
+
+
+.info {
+    background-color: black;
+    padding: 10px;
+    border: 2px solid yellow;
+}
+
+
+img {
+    border: 2px solid yellow;
+    transition: 0.3s;
+}
+
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer a {
+    color: yellow;
+    transition: 0.3s;
+}
+
+#footer a:hover {
+    color: white;
+}
